@@ -61,6 +61,7 @@ GameObject:
   - 92: {fileID: 9281574}
   - 124: {fileID: 12487004}
   - 81: {fileID: 8171186}
+  - 114: {fileID: 114000010624143308}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -172,7 +173,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 100
   orthographic: 1
   orthographic size: 10
   m_Depth: -1
@@ -210,6 +211,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -297,17 +299,14 @@ MonoBehaviour:
   score: 0
   waitTime: 3
   blockList:
-  - {fileID: 128218, guid: f2a4d59e379fb4e3cbba6a26ba3e0ebe, type: 2}
-  - {fileID: 128218, guid: f2a4d59e379fb4e3cbba6a26ba3e0ebe, type: 2}
-  - {fileID: 142150, guid: 192756d9030114137bb0f6ff02189d8d, type: 2}
-  - {fileID: 119260, guid: 3c5edc5e8311e4911889a23fb70f9cdb, type: 2}
-  - {fileID: 119260, guid: 3c5edc5e8311e4911889a23fb70f9cdb, type: 2}
-  - {fileID: 184198, guid: aeb8a6d57658b461398f3f139524c183, type: 2}
-  - {fileID: 184198, guid: aeb8a6d57658b461398f3f139524c183, type: 2}
-  - {fileID: 184198, guid: aeb8a6d57658b461398f3f139524c183, type: 2}
+  - {fileID: 118136, guid: 112047d9887494febb6c3041eefe55f3, type: 2}
+  - {fileID: 118136, guid: 112047d9887494febb6c3041eefe55f3, type: 2}
+  - {fileID: 118136, guid: 112047d9887494febb6c3041eefe55f3, type: 2}
+  - {fileID: 118136, guid: 112047d9887494febb6c3041eefe55f3, type: 2}
+  - {fileID: 118136, guid: 112047d9887494febb6c3041eefe55f3, type: 2}
   currentIndex: 0
   winState: 
-  level: 2
+  level: 1
   maximumLevel: 0
   winTimer: 5
   paused: 0
@@ -332,3 +331,14 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 121164}
   m_IsPrefabParent: 1
+--- !u!114 &114000010624143308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc2309cb5127246199f4d06cfd45489f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

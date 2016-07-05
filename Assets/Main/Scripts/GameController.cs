@@ -47,7 +47,7 @@ public class GameController : MonoBehaviour {
 			winState = "PossibleVictory";
 			if (winCheck ()) {
 				winState = "Victory";
-				if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex >= maxLevel) {
+				if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex > maxLevel+1) {
 					maxLevel++;
 				}
 				StartCoroutine (pauseCoroutine ());

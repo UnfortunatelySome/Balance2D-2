@@ -9,11 +9,14 @@ public class BackgroundDataSaver : MonoBehaviour {
 	void Start () {
 		DontDestroyOnLoad (gameObject);
 
-		maxReachedLevel = GameController.maxLevel;
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+		maxReachedLevel = GameController.maxLevel;
+		print (maxReachedLevel);
 	
 	}
 }

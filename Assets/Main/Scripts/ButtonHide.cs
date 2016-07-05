@@ -10,7 +10,7 @@ public class ButtonHide : MonoBehaviour {
 		gameController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameController>();
 	}
 	void Update(){	
-		if (gameController.maximumLevel <= gameController.level) {
+		if (gameController.maximumLevel + 1 <= gameController.level) {
 			nextButton.SetActive (false);
 		} else {
 			nextButton.SetActive (true);

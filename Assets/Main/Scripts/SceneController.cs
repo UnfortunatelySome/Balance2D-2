@@ -13,4 +13,7 @@ public class SceneController : MonoBehaviour {
 	}
 	public void SettingsButton(){
 	}
+	public void HomeButton(){
+		Application.LoadLevel ("Main Menu");
+	}
 }
