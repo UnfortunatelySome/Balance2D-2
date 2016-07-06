@@ -548,7 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e78daa3a3e6d4504804541a2fadc923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defMessage: Just Stack the blocks
+  defMessage: Think twice before making a perfect pyramid
   winMessage: You Win! Go to the next level.
   lossMessage: Level Failed. Try Again
 --- !u!114 &114000012805583890
@@ -682,9 +682,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74b525a6a031b4c8c9e1352162e8ca94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameController: {fileID: 0}
-  winState: 
-  text: {fileID: 0}
 --- !u!114 &114000013900989112
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1069,10 +1066,10 @@ RectTransform:
   m_Father: {fileID: 224000010424956694}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 43, y: 0}
-  m_SizeDelta: {x: 50, y: -270}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224000012171826880
 RectTransform:
@@ -1105,10 +1102,10 @@ RectTransform:
   m_Father: {fileID: 224000010424956694}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 120}
-  m_SizeDelta: {x: -430, y: 50}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -40}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224000013320162170
 RectTransform:
@@ -1142,10 +1139,10 @@ RectTransform:
   m_Father: {fileID: 224000010424956694}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.518}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -43, y: 0}
-  m_SizeDelta: {x: 50, y: -270}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224000014052524126
 RectTransform:

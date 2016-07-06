@@ -2743,14 +2743,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
+  m_ReferencePixelsPerUnit: 0
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 350, y: 700}
+  m_ReferenceResolution: {x: 533.72, y: 700}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.354
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
+  m_FallbackScreenDPI: 1
+  m_DefaultSpriteDPI: 1
   m_DynamicPixelsPerUnit: 1
 --- !u!223 &1406803347
 Canvas:
