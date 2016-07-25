@@ -229,6 +229,26 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010784607868, guid: 1443aa074a4214b4789556c9efc4ce83,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 877777017}
+    - target: {fileID: 114000010784607868, guid: 1443aa074a4214b4789556c9efc4ce83,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LevelSelectButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011949638972, guid: 1443aa074a4214b4789556c9efc4ce83,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 877777017}
+    - target: {fileID: 114000011949638972, guid: 1443aa074a4214b4789556c9efc4ce83,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HomeButton
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1443aa074a4214b4789556c9efc4ce83, type: 2}
   m_IsPrefabParent: 0
@@ -434,6 +454,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52883c1bfd1bf433586bf527cfb3507a, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &877777017 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000010624143308, guid: 52883c1bfd1bf433586bf527cfb3507a,
+    type: 2}
+  m_PrefabInternal: {fileID: 877777016}
+  m_Script: {fileID: 11500000, guid: fc2309cb5127246199f4d06cfd45489f, type: 3}
 --- !u!1 &1190515792 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 133774, guid: 8d3ca116c195b459fa1937557ea1e168, type: 2}

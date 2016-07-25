@@ -498,7 +498,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: HomeButton
+        m_MethodName: LevelSelectButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -548,7 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e78daa3a3e6d4504804541a2fadc923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defMessage: Think twice before making a perfect pyramid
+  defMessage: Think about physics
   winMessage: You Win! Go to the next level.
   lossMessage: Level Failed. Try Again
 --- !u!114 &114000012805583890
