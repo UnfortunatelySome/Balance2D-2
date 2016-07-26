@@ -61,6 +61,7 @@
      <Compile Include="Assets\Main\Scripts\ProgressBar.cs" />
      <Compile Include="Assets\Main\Scripts\Rotation.cs" />
      <Compile Include="Assets\Main\Scripts\SceneController.cs" />
+     <Compile Include="Assets\Main\Scripts\TUTORIAL.cs" />
      <Compile Include="Assets\Main\Scripts\isFailed.cs" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

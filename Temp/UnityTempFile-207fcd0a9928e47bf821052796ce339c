@@ -1,15 +1,11 @@
 -debug
 -target:library
 -nowarn:0169
--out:'Temp/Assembly-CSharp.dll'
--r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
--r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-out:'Temp/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
--r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
--r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
--r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
--r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_4_0
@@ -78,32 +74,23 @@
 -define:ENABLE_UNITYADS_RUNTIME
 -define:UNITY_UNITYADS_API
 -define:ENABLE_MONO
+-define:DEVELOPMENT_BUILD
 -define:ENABLE_PROFILER
 -define:DEBUG
 -define:TRACE
 -define:UNITY_ASSERTIONS
--define:UNITY_EDITOR
--define:UNITY_EDITOR_64
--define:UNITY_EDITOR_OSX
--define:UNITY_TEAM_LICENSE
 -define:CROSS_PLATFORM_INPUT
 -define:MOBILE_INPUT
-'Assets/Back.cs'
-'Assets/Main/Scripts/BackgroundDataSaver.cs'
-'Assets/Main/Scripts/BlockController.cs'
-'Assets/Main/Scripts/ButtonHide.cs'
-'Assets/Main/Scripts/GameController.cs'
-'Assets/Main/Scripts/GameOutput.cs'
-'Assets/Main/Scripts/HideButtons.cs'
-'Assets/Main/Scripts/Icon.cs'
-'Assets/Main/Scripts/Indicator.cs'
-'Assets/Main/Scripts/LVLmanager.cs'
-'Assets/Main/Scripts/MovingUp.cs'
-'Assets/Main/Scripts/PlayButtonController.cs'
-'Assets/Main/Scripts/PlayerController.cs'
-'Assets/Main/Scripts/ProgressBar.cs'
-'Assets/Main/Scripts/Rotation.cs'
-'Assets/Main/Scripts/SceneController.cs'
-'Assets/Main/Scripts/isFailed.cs'
+'Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs'
+'Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs'
+'Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs'
+'Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs'
+'Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs'
+'Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs'
+'Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs'
+'Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs'
+'Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs'
+'Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs'
+'Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'

@@ -5,7 +5,7 @@ public class SceneController : MonoBehaviour {
 
 	public void StartButton (){
 
-		Application.LoadLevel ("Level 0");
+		Application.LoadLevel ("Tutorial");
 
 	}
 	public void LevelSelectButton(){

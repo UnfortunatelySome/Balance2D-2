@@ -104,6 +104,7 @@
 'Assets/Main/Scripts/ProgressBar.cs'
 'Assets/Main/Scripts/Rotation.cs'
 'Assets/Main/Scripts/SceneController.cs'
+'Assets/Main/Scripts/TUTORIAL.cs'
 'Assets/Main/Scripts/isFailed.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'

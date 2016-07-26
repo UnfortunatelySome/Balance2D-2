@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour {
 	public GameObject pauseMenu;
 	public GameObject gameGUI;
 	public GameObject currentBlock;
+
 	// Use this for initialization
 	void Start () {
 		mainCamera = gameObject.GetComponentInChildren<Camera> ();
@@ -69,6 +70,7 @@ public class GameController : MonoBehaviour {
 		pause ();
 
 	}
+
 	public IEnumerator spawn(){
 		ready = false;
 		bool working = true;
