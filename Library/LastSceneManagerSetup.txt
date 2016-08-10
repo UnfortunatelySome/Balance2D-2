@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Extra Scenes/LVL select.unity
+- path: Assets/Level 24.unity
   isLoaded: 1
   isActive: 1

@@ -46,6 +46,7 @@ public class GameController : MonoBehaviour {
 			StartCoroutine (pauseCoroutine ());//This starts a coroutine called pauseCoroutine(), it does not start and then pause a coroutine
 		} else if (currentIndex == blockList.Length) {
 			winState = "PossibleVictory";
+
 			if (winCheck ()) {
 				winState = "Victory";
 				if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex > maxLevel+1) {
@@ -89,7 +90,11 @@ public class GameController : MonoBehaviour {
 			working = false;
 			yield return new WaitForSeconds (2f);
 		}
-		ready = true;
+		if (currentIndex == blockList.Length) {
+			ready = false;
+		} else {
+			ready = true;
+		}
 		yield return null;
 	}
 	public bool winCheck(){
