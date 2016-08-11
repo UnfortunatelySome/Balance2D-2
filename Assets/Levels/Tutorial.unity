@@ -781,7 +781,7 @@ Prefab:
       objectReference: {fileID: 1771276907}
     - target: {fileID: 11456098, guid: 52883c1bfd1bf433586bf527cfb3507a, type: 2}
       propertyPath: level
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11456098, guid: 52883c1bfd1bf433586bf527cfb3507a, type: 2}
       propertyPath: blockList.Array.data[5]
