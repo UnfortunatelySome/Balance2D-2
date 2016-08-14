@@ -10,13 +10,14 @@ public class BackgroundDataSaver : MonoBehaviour {
 		DontDestroyOnLoad (gameObject);
 
 
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		maxReachedLevel = GameController.maxLevel;
-		print (maxReachedLevel);
-	
+		print ( "max level " + maxReachedLevel);
+		maxReachedLevel = PlayerPrefs.GetInt("MaxLevel");
+
 	}
 }

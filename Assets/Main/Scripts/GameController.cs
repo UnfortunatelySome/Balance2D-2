@@ -49,8 +49,12 @@ public class GameController : MonoBehaviour {
 
 			if (winCheck ()) {
 				winState = "Victory";
-				if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex > maxLevel+1) {
+				if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex > maxLevel + 1) {
 					maxLevel++;
+
+					PlayerPrefs.SetInt ("MaxLevel" , maxLevel);
+					PlayerPrefs.Save ();
+					print ("Max level is " + PlayerPrefs.GetInt("MaxLevel")) ;
 				}
 				StartCoroutine (pauseCoroutine ());
 			}

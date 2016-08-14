@@ -16,7 +16,8 @@ public class LVLmanager : MonoBehaviour {
 	void Start () {
 
 		image = gameObject.GetComponent<Image>();
-	
+
+
 	}
 
 
@@ -34,19 +35,26 @@ public class LVLmanager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (BackgroundDataSaver.maxReachedLevel < level) {
-
+		if (BackgroundDataSaver.maxReachedLevel == 0) {
 			levelText.text = "";
 			image.sprite = Lock;
 			LockActive = true;
+		} else {
+
+			if (BackgroundDataSaver.maxReachedLevel + 1 < level) {
+
+				levelText.text = "";
+				image.sprite = Lock;
+				LockActive = true;
 
 
-		} else if (BackgroundDataSaver.maxReachedLevel >= level) {
+			} else if (BackgroundDataSaver.maxReachedLevel + 1 >= level) {
 
-			levelText.text = level.ToString();
-			image.sprite = Lvl;
-			LockActive = false;
+				levelText.text = level.ToString ();
+				image.sprite = Lvl;
+				LockActive = false;
 
+			}
 		}
 	
 	}

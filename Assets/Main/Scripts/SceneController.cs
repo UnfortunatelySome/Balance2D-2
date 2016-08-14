@@ -12,6 +12,7 @@ public class SceneController : MonoBehaviour {
 		Application.LoadLevel ("LVL select");
 	}
 	public void SettingsButton(){
+		Application.LoadLevel ("Settings");
 	}
 	public void HomeButton(){
 		Application.LoadLevel ("Main Menu");

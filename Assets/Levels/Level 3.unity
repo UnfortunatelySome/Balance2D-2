@@ -169,6 +169,14 @@ Prefab:
       propertyPath: blockList.Array.data[2]
       value: 
       objectReference: {fileID: 169410, guid: 88b7328606a8b440a88b0cb755b00717, type: 2}
+    - target: {fileID: 11456098, guid: 52883c1bfd1bf433586bf527cfb3507a, type: 2}
+      propertyPath: blockList.Array.data[3]
+      value: 
+      objectReference: {fileID: 119260, guid: 3c5edc5e8311e4911889a23fb70f9cdb, type: 2}
+    - target: {fileID: 11456098, guid: 52883c1bfd1bf433586bf527cfb3507a, type: 2}
+      propertyPath: blockList.Array.data[4]
+      value: 
+      objectReference: {fileID: 119260, guid: 3c5edc5e8311e4911889a23fb70f9cdb, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52883c1bfd1bf433586bf527cfb3507a, type: 2}
   m_IsPrefabParent: 0
